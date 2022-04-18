@@ -7,6 +7,7 @@ function utils.format_path(path)
 	local np_pat1, np_pat2 = np_gen1:gsub('SEP','/'), np_gen2:gsub('SEP','/')
 	local k
 
+	
 	repeat -- /./ -> /
 		path,k = path:gsub(np_pat2,'/',1)
 	until k == 0

@@ -11,6 +11,7 @@ function love.load()
     camera = require'library/camera'
     cam = camera()
 
+    
     player = {}
     player.collider = world:newBSGRectangleCollider(400, 350, 50, 30, 14)
     player.collider:setFixedRotation(true)

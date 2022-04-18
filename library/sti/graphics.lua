@@ -7,6 +7,7 @@ function graphics.newSpriteBatch(...)
 	end
 end
 
+
 function graphics.newCanvas(...)
 	if graphics.isCreated then
 		return lg.newCanvas(...)

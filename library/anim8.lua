@@ -5,6 +5,7 @@ local anim8 = {
   _LICENSE     = [[
     MIT LICENSE
 
+    
     Copyright (c) 2011 Enrique García Cota
 
     Permission is hereby granted, free of charge, to any person obtaining a
